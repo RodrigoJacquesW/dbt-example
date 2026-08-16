@@ -1,0 +1,19 @@
+# Artefatos gerados pelo dbt a cada execucao — descartaveis, nao versionar
+target/
+dbt_packages/
+logs/
+
+# Ambiente virtual Python (fica na pasta acima, mas barrado por seguranca)
+.venv/
+venv/
+
+# Credenciais — o profiles.yml guarda chaves de acesso ao BigQuery
+profiles.yml
+
+# Identificador anonimo de telemetria do dbt — local, nao versionar
+.user.yml
+
+# Sistema operacional / editor
+.DS_Store
+.vscode/
+__pycache__/
